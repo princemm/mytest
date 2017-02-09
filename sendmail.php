@@ -44,7 +44,7 @@ if(isset($_POST['text3']) && $_POST['text3'] && $_POST['text5']){
 				$mail->Send ();
 }
 	header("Content-type: text/html; charset=utf-8");
-	$msg = "alert('提交成功，我们会尽快与您联系');";
+	$msg = "alert('提交成功，我们会尽快与您联系！');";
 	echo "<script>$msg window.location.href='yixiang.html';</script>";
 
 ?>
